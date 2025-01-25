@@ -1,0 +1,35 @@
+.craft {
+	&-wrapper {
+		height: 756px;
+		overflow: scroll;
+
+
+	}
+
+	&__title {
+		font-size: 36px;
+		font-weight: 600;
+		line-height: 1.1;
+	}
+
+	&__inner {
+		display: grid;
+		grid-template: 1fr/ 1fr 1fr;
+		column-gap: 40px;
+	}
+
+	// &__left {
+	// 	// padding-top: 40px;
+	// }
+
+	&__subtitle {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 1.1;
+	}
+
+	&__list {
+		display: grid;
+		grid-template: 1fr / 1fr 1fr;
+	}
+}

@@ -1,0 +1,15 @@
+.header {
+  margin: 40px 40px 0 40px;
+  background-color: var(--main-dark);
+}
+.header__inner {
+  height: 88px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}/*# sourceMappingURL=style.css.map */

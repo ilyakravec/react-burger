@@ -1,0 +1,11 @@
+.header {
+	&__navbar {
+		width: 100%;
+		max-width: 784px;
+
+		display: flex;
+		align-items: center;
+		column-gap: 30px;
+		justify-content: space-between;
+	}
+}
