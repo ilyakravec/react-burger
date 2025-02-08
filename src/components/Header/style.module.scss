@@ -1,0 +1,26 @@
+.header {
+	background-color: var(--main-dark);
+
+	&__inner {
+		height: 88px;
+		width: 100%;
+		max-width: 1280px;
+		margin: 0 auto;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		column-gap: 30px;
+	}
+
+	&__navbar {
+		width: 100%;
+		// max-width: 784px;
+
+		display: flex;
+		align-items: center;
+		column-gap: 30px;
+		justify-content: space-between;
+	}
+}

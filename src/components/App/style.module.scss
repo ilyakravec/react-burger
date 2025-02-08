@@ -1,0 +1,11 @@
+.craft {
+	padding: 40px 40px 0 40px;
+
+	height: 100vh;
+
+	&__inner {
+		display: grid;
+		grid-template: 1fr/ 1fr 1fr;
+		column-gap: 40px;
+	}
+}

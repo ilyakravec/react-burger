@@ -1,0 +1,10 @@
+.craft {
+  padding: 40px 40px 0 40px;
+  height: 100vh;
+}
+.craft__inner {
+  display: grid;
+  grid-template: 1fr/1fr 1fr;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}/*# sourceMappingURL=style.module.css.map */

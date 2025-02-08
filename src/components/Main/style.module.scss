@@ -1,0 +1,79 @@
+.craft {
+	&-wrapper {
+		height: 686px;
+		overflow: scroll;
+	}
+
+	&-basket {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	&-overflow {
+		overflow-y: scroll;
+	}
+
+	&__title {
+		font-size: 36px;
+		font-weight: 600;
+		line-height: 1.1;
+	}
+
+	&__subtitle {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 1.1;
+	}
+
+	&__list {
+		display: grid;
+		grid-template: auto / 1fr 1fr;
+		row-gap: 32px;
+
+	}
+
+	&__orderSum {
+		display: flex;
+		align-items: center;
+		column-gap: 8px;
+	}
+
+}
+
+.craftbar {
+	&__order {
+		display: flex;
+		justify-content: flex-end;
+		column-gap: 40px;
+	}
+}
+
+.constructor {
+	&__items {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+
+		&__wrapper {
+			display: flex;
+			justify-content: flex-end;
+			column-gap: 8px;
+
+		}
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 10px;
+		height: 440px;
+		overflow: scroll;
+
+		&-item {
+			display: flex;
+			justify-content: flex-end;
+			column-gap: 8px;
+		}
+	}
+}

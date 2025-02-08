@@ -1,0 +1,65 @@
+.craft-wrapper {
+  height: 686px;
+  overflow: scroll;
+}
+.craft-basket {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.craft-overflow {
+  overflow-y: scroll;
+}
+.craft__title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.craft__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.1;
+}
+.craft__list {
+  display: grid;
+  grid-template: auto/1fr 1fr;
+  row-gap: 32px;
+}
+.craft__orderSum {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+
+.craftbar__order {
+  display: flex;
+  justify-content: flex-end;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+
+.constructor__items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.constructor__items__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+.constructor__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  height: 440px;
+  overflow: scroll;
+}
+.constructor__list-item {
+  display: flex;
+  justify-content: flex-end;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}/*# sourceMappingURL=style.module.css.map */

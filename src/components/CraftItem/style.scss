@@ -1,0 +1,27 @@
+.craft__list {
+
+	&-price {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		column-gap: 8px;
+	}
+
+	&-name {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		height: 48px;
+	}
+
+	&-img {
+		position: relative;
+		text-align: center;
+
+		img {
+			width: 100%;
+			max-width: 240px;
+			height: auto;
+		}
+	}
+}
