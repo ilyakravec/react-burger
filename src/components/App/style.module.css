@@ -4,7 +4,7 @@
 }
 .craft__inner {
   display: grid;
-  grid-template: 1fr/1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   -moz-column-gap: 40px;
        column-gap: 40px;
 }/*# sourceMappingURL=style.module.css.map */

@@ -1,0 +1,37 @@
+.myModal {
+	position: fixed;
+
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+	z-index: 5;
+	background-color: rgba(#000000, 0.6);
+	display: none;
+
+	// &__content {
+	// 	position: relative;
+	// 	width: 100%;
+	// 	max-width: 720px;
+	// 	display: flex;
+	// 	align-items: center;
+	// 	flex-direction: column;
+
+	// 	border-radius: 40px;
+	// 	background-color: #1C1C21;
+	// }
+}
+
+.myModal.active {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.closeWrapper {
+	position: absolute;
+	top: 60px;
+	right: 40px;
+	z-index: 2;
+}

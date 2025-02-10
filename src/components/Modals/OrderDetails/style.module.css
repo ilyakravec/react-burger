@@ -1,0 +1,25 @@
+.orderDetails {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orderDetails__content {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 40px;
+  background-color: #1C1C21;
+}
+.orderDetails__order {
+  text-shadow: #4C4CFF 1px 0 20px;
+}/*# sourceMappingURL=style.module.css.map */

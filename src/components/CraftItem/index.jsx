@@ -4,10 +4,10 @@ import './style.scss';
 import React from 'react';
 
 
-const CraftItem = ({ price, src, name, }) => {
+const CraftItem = ({ price, src, name, onClick }) => {
 	return (
 
-		<li className="craft__list-item">
+		<li className="craft__list-item" onClick={onClick}>
 
 			<div className="craft__list-img">
 				<div className="craft__count">

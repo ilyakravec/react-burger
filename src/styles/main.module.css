@@ -1,4 +1,3 @@
-/* Reset and base styles  */
 * {
   padding: 0px;
   margin: 0px;
@@ -113,6 +112,7 @@ body {
   line-height: 1.5;
   color: var(--main-light);
   background-color: var(--main-bg);
+  overflow-x: hidden;
 }
 
 * {

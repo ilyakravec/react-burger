@@ -1,0 +1,23 @@
+.myModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+.myModal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeWrapper {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+  z-index: 2;
+}/*# sourceMappingURL=MyModal.module.css.map */
